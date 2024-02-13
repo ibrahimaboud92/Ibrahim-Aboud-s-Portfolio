@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    line-height: 1.6;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    background-color: #333;
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 80px 0;
+  }
+  
+  /* About Section Styles */
+  #about {
+    background-color: #f4f4f4;
+  }
+  
+  /* Experience Section Styles */
+  #experience {
+    background-color: #fff;
+  }
+  
+  /* Projects Section Styles */
+  #projects {
+    background-color: #f4f4f4;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: #fff;
+  }
+  
+  /* Media Query for Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  }
+
+  .form {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+  }
+  
+  .form .title {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+  }
+  
+  .form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+  }
+  
+  .profile-picture {
+    width: 150px; /* تغيير العرض والارتفاع حسب الحاجة */
+    height: 150px; /* تغيير العرض والارتفاع حسب الحاجة */
+    border-radius: 50%; /* جعل الصورة مستديرة */
+    overflow: hidden; /* إخفاء الجزء الزائد من الصورة إذا كان أكبر من الشكل المحدد */
+  }
+  
+  .profile-picture img {
+    width: 100%; /* تحديد العرض بنسبة مئوية للصورة داخل العنصر المستدير */
+    height: auto; /* السماح للصورة بالتكيف مع العرض بشكل تلقائي */
+  }
+  
